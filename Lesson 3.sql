@@ -13,7 +13,7 @@
 -- update
 -- delete
 
--- data type
+-- Типы данных 
 
 -- char - fixed
 -- varchar - max
