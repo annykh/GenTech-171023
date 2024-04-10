@@ -1,0 +1,19 @@
+Выборка:
+https://drive.google.com/drive/folders/1zbc3m1Mb2ue1zU_9bjLaL82md4w6qIEB
+https://drive.google.com/drive/folders/1QTTp-tcna6of4TMcrNsUxmlGQeMTX7Y4
+
+Созадние и заполнение таблиц:
+https://drive.google.com/drive/folders/1Bw82yMoHhgSuXvvlR2lh5a4sCI2DbPHe
+
+Ограничения и union:
+https://drive.google.com/drive/folders/1huN5EyaB_4Avvba27w306QZ4jrMJ6yH7
+
+Joins:
+https://drive.google.com/drive/folders/1iyZgw9m76zfBeNqZUsDMBtuYuzo7IcBj
+https://drive.google.com/drive/folders/1b6v3SSScKOQyZBpaa5cSp-7OAhPKoZci
+
+Агрегация:
+https://drive.google.com/drive/folders/1UD2Sk1yxDiWyhL9GlwnsoocqvxNv3lGz
+
+Группировка:
+https://drive.google.com/drive/folders/1NgTIqlg70PqbuujDaoOSukOwfUdPhDMb
