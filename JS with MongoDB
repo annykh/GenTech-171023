@@ -1,0 +1,66 @@
+// Подключение к базе данных MongoDB:
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb://localhost:27017/mydatabase"; // URI вашей базы данных
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+client.connect(err => {
+  if (err) {
+    console.error("Ошибка подключения к базе данных:", err);
+    return;
+  }
+  console.log("Подключение к базе данных успешно!");
+
+  // Дальнейшие операции с базой данных будут здесь
+
+  client.close();
+});
+
+// Поиск товаров в коллекции, где имя товара содержит 5 букв:
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb://localhost:27017/mydatabase"; // URI вашей базы данных
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+client.connect(async err => {
+  if (err) {
+    console.error("Ошибка подключения к базе данных:", err);
+    return;
+  }
+  console.log("Подключение к базе данных успешно!");
+
+  const db = client.db();
+  const collection = db.collection('products');
+
+  try {
+    const products = await collection.find({ name: { $regex: /^.{5}$/ } }).toArray();
+    console.log("Товары с именем из 5 букв:", products);
+  } catch (error) {
+    console.error("Ошибка при выполнении запроса:", error);
+  }
+
+  client.close();
+});
+
+//Добавление нового товара в коллекцию:
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb://localhost:27017/mydatabase"; // URI вашей базы данных
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+client.connect(async err => {
+  if (err) {
+    console.error("Ошибка подключения к базе данных:", err);
+    return;
+  }
+  console.log("Подключение к базе данных успешно!");
+
+  const db = client.db();
+  const collection = db.collection('products');
+
+  try {
+    const result = await collection.insertOne({ name: "Новый товар", price: 10 });
+    console.log("Добавлен новый товар:", result.insertedId);
+  } catch (error) {
+    console.error("Ошибка при добавлении товара:", error);
+  }
+
+  client.close();
+});
