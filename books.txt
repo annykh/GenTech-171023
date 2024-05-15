@@ -1,0 +1,5 @@
+КНИГИ:
+1. MySQL High Availability: Tools for Building Robust Data Centers 2nd Edition by Charles Bell (Author), Mats Kindahl (Author), Lars Thalmann (Author)
+2. Efficient MySQL Performance: Best Practices and Techniques By Daniel Nichter
+3. MongoDB: The Definitive Guide, 3rd Edition by Shannon Bradshaw, Eoin Brazil, Kristina Chodorow
+4. MongoDB Data Modeling and Schema Design by Daniel Coupal (Author), Pascal Desmarets (Author), Steve Hoberman (Author)
