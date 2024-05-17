@@ -158,3 +158,4 @@ db.students.find({
 })
 // 12. Найти всех студентов, у которых нет курсов "Computer Science" и "Law".
 db.students.find({course: { $nin: ["Computer Science", "Law"]}})
+db.students.find({course: {$not: {$in: ['Computer Science', 'Law']}}})
