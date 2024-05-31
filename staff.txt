@@ -1,11 +1,11 @@
 
 INSERT INTO Staff(firstname, lastname, position, age, has_child, username) VALUES 
         ('Anna'
-        , 'Khachaturyan'
+        , 'Dereck'
         , 'Senior Teacher'
         , 22
         , 'N'
-        , 'annakhach5'
+        , 'annaD5'
         );
         
 INSERT INTO Staff(firstname, lastname, position, age, has_child, username) VALUES 
