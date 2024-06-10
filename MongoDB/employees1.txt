@@ -1,0 +1,66 @@
+db.employees1.insertMany([
+    {
+      "firstname": "John",
+      "lastname": "Doe",
+      "age": 35,
+      "salary": 5000,
+      "department": "HR",
+      "position": "Manager"
+    },
+    {
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "age": 28,
+      "salary": 4000,
+      "department": "IT",
+      "position": "Developer"
+    },
+    {
+      "firstname": "Alice",
+      "lastname": "Johnson",
+      "age": 42,
+      "salary": 6000,
+      "department": "Finance",
+      "position": "Accountant"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Brown",
+      "age": 30,
+      "salary": 5500,
+      "department": "Marketing",
+      "position": "Marketing Specialist"
+    },
+    {
+      "firstname": "Emily",
+      "lastname": "Davis",
+      "age": 33,
+      "salary": 5200,
+      "department": "Sales",
+      "position": "Sales Manager"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Wilson",
+      "age": 38,
+      "salary": 5800,
+      "department": "Operations",
+      "position": "Operations Director"
+    },
+    {
+      "firstname": "Emma",
+      "lastname": "Miller",
+      "age": 45,
+      "salary": 6200,
+      "department": "HR",
+      "position": "HR Director"
+    },
+    {
+      "firstname": "Andrew",
+      "lastname": "Taylor",
+      "age": 40,
+      "salary": 5900,
+      "department": "IT",
+      "position": "IT Director"
+    }
+  ])
