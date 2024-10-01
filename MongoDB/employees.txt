@@ -1,4 +1,4 @@
-db.employees.insertMany([
+db.employees2.insertMany([
   {
     "name": "Alice",
     "age": 30,
