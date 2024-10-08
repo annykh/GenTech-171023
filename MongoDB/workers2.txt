@@ -1,4 +1,4 @@
-db.workers1.insertMany([
+db.workers2.insertMany([
         {
           _id: 1,
           firstname: 'Inga',
