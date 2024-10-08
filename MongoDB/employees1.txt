@@ -1,4 +1,4 @@
-db.employees1.insertMany([
+db.employees3.insertMany([
     {
       "firstname": "John",
       "lastname": "Doe",
