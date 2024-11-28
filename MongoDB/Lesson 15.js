@@ -225,7 +225,7 @@ db.users.insertMany([
         _id: 3,
         firstname: 'Никита',
         lastname: 'Иванов',
-        age: 3,
+        age: 33,
         gender: 'm'
     },
     {
